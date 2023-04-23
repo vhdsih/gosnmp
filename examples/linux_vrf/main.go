@@ -10,7 +10,7 @@ import (
 	"syscall"
 	"time"
 
-	g "github.com/gosnmp/gosnmp"
+	g "github.com/vhdsih/gosnmp"
 )
 
 func main() {
