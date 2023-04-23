@@ -648,7 +648,7 @@ func parseObjectIdentifier(src []byte) (string, error) {
 		out.WriteByte('.')
 		v, offset, err = parseBase128Int(src, offset)
 		if err != nil {
-			return "", err
+			return "", nil
 		}
 		out.WriteString(strconv.FormatInt(v, 10))
 	}
