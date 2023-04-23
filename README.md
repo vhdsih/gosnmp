@@ -79,7 +79,7 @@ This will completely disable the logging of the gosnmp library, even if the logg
 # Installation
 
 ```shell
-go get github.com/gosnmp/gosnmp
+go get github.com/vhdsih/gosnmp
 ```
 
 # Documentation
@@ -151,7 +151,7 @@ below).
 If you've never contributed to a Go project before, here is an example workflow.
 
 1. [fork this repo on the GitHub webpage](https://github.com/gosnmp/gosnmp/fork)
-1. `go get github.com/gosnmp/gosnmp`
+1. `go get github.com/vhdsih/gosnmp`
 1. `cd $GOPATH/src/github.com/gosnmp/gosnmp`
 1. `git remote rename origin upstream`
 1. `git remote add origin git@github.com:<your-github-username>/gosnmp.git`
@@ -275,7 +275,7 @@ To check test coverage:
 ```shell
 go get github.com/axw/gocov/gocov
 go get github.com/matm/gocov-html
-gocov test github.com/gosnmp/gosnmp | gocov-html > gosnmp.html && firefox gosnmp.html &
+gocov test github.com/vhdsih/gosnmp | gocov-html > gosnmp.html && firefox gosnmp.html &
 ```
 
 
